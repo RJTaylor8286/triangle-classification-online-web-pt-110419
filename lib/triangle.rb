@@ -2,7 +2,7 @@ class Triangle
   attr_accessor :equilateral, :isosceles, :scalene
 end
 
-def kind 
+def kind(TriangleError)
 
 class TriangleError < StandardError
   def message
